@@ -34,7 +34,27 @@ public class App {
 		} else {
 			System.out.println("Invalid option");
 		}
+		/*
+		 * Coding challenge Convert the above into a switch statement
+		 * Note that you can't convert the Easter egg portion to a
+		 * switch statement since switch only deals with ==
+		 */
 
+		switch (input) {
+		case 1:
+			System.out.println("Option 1 selected.");
+			break;
+		case 2:
+			System.out.println("Option 2 selected.");
+			break;
+		case 3:
+			System.out.println("Option 3 selected.");
+			System.out.println("Exiting");
+			System.exit(0);
+			break;
+		default:
+			System.out.println("Invalid option.");
+			break;
+		}
 	}
-
 }
